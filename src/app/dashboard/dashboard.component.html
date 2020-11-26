@@ -1,0 +1,14 @@
+<div class="container-fluid">
+<div class="col-xs-12" >
+    <h3 style="text-align: center; margin-top: 5px;">Top Heroes</h3>
+    <br>
+    <mat-grid-list cols="4" rowHeight="110px" gutterSize="20px">
+        <mat-grid-tile
+        *ngFor="let hero of heroes"
+         routerLink="/details/{{hero.id}}">{{hero.name}}</mat-grid-tile>
+    </mat-grid-list>
+</div>
+</div>
+
+<app-hero-search></app-hero-search>
+

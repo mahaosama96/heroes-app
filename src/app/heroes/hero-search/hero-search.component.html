@@ -1,0 +1,18 @@
+<div class="container-fluid">
+    <div class="col-xs-12">
+
+        <label for="search-box"><h4>Search by name:</h4></label>
+        <input type="text" 
+        id="search-box" 
+        #searchBox
+        (input)="search(searchBox.value)"
+        class="form-control">
+
+        <mat-selection-list *ngFor="let hero of heroes$ | async">
+            <a routerLink="/details/{{hero.id}}">
+            <mat-option>{{hero.name}}</mat-option>
+            </a>
+        </mat-selection-list>
+    </div>
+</div>
+    

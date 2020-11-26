@@ -1,0 +1,16 @@
+div{
+    margin-top: 2.5em;
+    margin-left: 0px;
+}
+h4{
+    font-size: 17px;
+}
+
+.form-control{
+    width: 300px;
+    height: 35px;
+}
+mat-selection-list, mat-option{
+    width: 300px;
+    height: 40px;
+}

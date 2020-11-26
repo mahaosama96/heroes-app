@@ -1,0 +1,22 @@
+h3{
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+mat-grid-list{
+     margin-left: 0px;
+      margin-right: 0px;
+}
+
+mat-grid-tile{
+    font-size: 17.3px;
+    color: whitesmoke;
+    background-color: rgb(159, 194, 202);
+}
+
+mat-grid-tile:hover{
+    cursor: pointer;
+    color:rgb(159, 194, 202);
+    background-color: whitesmoke;
+    font-size: 17.3px;
+}

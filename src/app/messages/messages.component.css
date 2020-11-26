@@ -1,0 +1,13 @@
+div{
+    margin-top: 1.5em;
+}
+h2{
+    font-weight: normal;
+    font-size: 22.5px;
+    color: red;
+}
+.msg{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(35, 50, 117);
+}

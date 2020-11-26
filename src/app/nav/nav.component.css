@@ -1,0 +1,27 @@
+mat-toolbar{
+    height: 52px;
+    position: fixed;
+    z-index: 100;
+    width: 100%  ;
+    overflow-x: hidden;
+    
+    
+}
+h1{
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+mat-sidenav{
+    background-color: rgb(229, 241, 252);
+    width: 12%;
+    height: 120%   !important;
+    padding: 7px;
+}
+
+.hamburger{
+    margin: 10px;
+}
+
+mat-sidenav-content{
+    margin-top: 70px;
+}

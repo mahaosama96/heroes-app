@@ -1,0 +1,13 @@
+.form-control{
+    width: 250px;
+    display: inline-block;
+    height: 30px;
+    margin: 7px;
+    margin-bottom: 10px;
+}
+label{
+    font-size: medium;
+}
+.mat-stroked-button{
+    display: inline-block;
+}

@@ -1,0 +1,8 @@
+<div class="container-fluid" *ngIf="messageService.messages.length">
+    <div class="col-xs-12">
+    <h2>Messages</h2>
+    <button mat-stroked-button (click)="messageService.clearMessages()">Clear</button>
+    <div *ngFor="let msg of messageService.messages" class="msg">{{msg}}</div>
+</div>
+</div>
+

@@ -1,0 +1,16 @@
+<div class="container-fluid" *ngIf="hero">
+    <div class="col-xs-12">
+        <h3>{{hero.name | uppercase}} details</h3>
+        <p>ID: {{hero.id}}</p>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" [(ngModel)]="hero.name"
+            class="form-control">
+        </div>
+    <button mat-raised-button color="primary" 
+    style="margin-right: 10px;"
+    (click)="onSave()">Save</button>
+    <button mat-stroked-button color="warn" routerLink="/../">back</button>
+
+    </div>
+</div>
